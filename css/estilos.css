@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+/*
+font-family: 'Open Sans', sans-serif;
+font-family: 'Rajdhani', sans-serif;
+*/
+.top {
+  background-color: #e5e6e8;
+}
+.top__contenedor {
+  max-width: 120rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.top__contenedor--welcome {
+  font-size: 1.3rem;
+  font-family: "Open Sans", sans-serif;
+}
+.top__contenedor__menu {
+  display: flex;
+  align-items: center;
+  font-family: "Rajdhani", sans-serif;
+  font-size: 1.7rem;
+}
+.top__contenedor__menu__item {
+  margin-left: 3rem;
+}
+.top__contenedor__menu__item--link {
+  padding: 1.5rem;
+  background-color: peru;
+  font-weight: 600;
+  color: black;
+}
+.top__contenedor__menu__item__select {
+  font-size: 1.7rem;
+  border: none;
+  outline: 0;
+  background-color: #e5e6e8;
+  font-weight: 600;
+  font-family: "Rajdhani", sans-serif;
+}
+.top__contenedor__menu__item__select option {
+  font-size: 1.7rem;
+  font-weight: 600;
+}
+
+/*# sourceMappingURL=estilos.css.map */
